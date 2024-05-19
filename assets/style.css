@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+
+#jumbotron {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/jumbotron.jpg");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-title {
+    font-family: 'Roboto Slab', sans-serif; 
+    font-size: 36px;
+    margin: 0;  
+    color: #fff;
+    max-width: 780px;
+    text-align: center;
+}
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -75px;
+    margin-bottom: 60px;
+    /* Source Sans Pro is now Source Sans 3 
+    https://blog.adobe.com/en/publish/2020/11/30/whats-new-in-source-sans-3*/
+    font-family: 'Source Sans 3', serif; 
+    font-size: 18px;
+}
+
+#profile-image {
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 100px;
+    display: inline-block;
+}
+
+#profile-text :first-child {
+    font-weight: bold;
+}
+
+#profile-text :nth-child(2) {
+    font-style: italic;
+}
+
+#profile-text {
+    color: rgb(51 ,51 ,51);
+    line-height: 24px;
+
+}
+
+.food-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+     /* Source Sans Pro is now Source Sans 3 
+    https://blog.adobe.com/en/publish/2020/11/30/whats-new-in-source-sans-3*/
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.heading {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51)
+}
+
+.special-number {
+    margin-right: 40px;
+    color: rgba(0, 0, 0, 0.25)
+}
+
+.subheading a{
+    color: #42b4d6;
+    text-decoration: none;
+}
+
+.subheading a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    margin-top: 20px 0;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51)
+
+}
+
+.recommendation {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.content {
+    width: 66.67%;
+}
+
+.content-image {
+    width: 100%
+}
